@@ -1,0 +1,21 @@
+https://medium.com/swlh/build-your-first-api-with-express-generator-sequelize-and-cli-2f7494cc517b
+npm i mysql2
+npm install --save-dev sequelize-cli [This creates four folders: config, migrations, models (contains index by default), and seeders]
+npx sequelize-cli init.
+npx sequelize-cli db:create  [next, we create the database we have just named using the command:]
+npx sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string[create model]
+
+
+npm i mysql2
+
+npm install --save-dev sequelize-cli
+  or 
+npm install --save sequelize
+
+npx sequelize-cli init. 
+
+npx sequelize-cli db:create 
+
+npx sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string
+
+npx sequelize-cli db:migrate
